@@ -14,13 +14,24 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background-dark: #1c1c1c;
+    --foreground-dark: #F3F4F6;
+    --accent: #10B981;
+    --second-accent: #FACC15;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-light: #ffffff;
+    --foreground-light: #fefefe;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--background-dark);
+  color: var(--foreground-dark);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
