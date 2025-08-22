@@ -1,11 +1,11 @@
 import Hero from "./components/Hero";
-import Work from "./components/Work";
+import Project from "./components/Project";
 
 export default function Home() {
   return (
     <div className="px-10 min-h-screen">
       <Hero />
-      <Work/>
+      <Project/>
     </div>
   );
 }
