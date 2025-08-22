@@ -19,8 +19,8 @@ export default function Hero() {
           Revo Sasta Azzaro
         </h1>
         <p className="lg:text-lg text-md lg:mt-3 mt-2 break-words whitespace-normal max-w-[650px]">
-          Hi, I'm Student and have an interest in Web Development, especially
-          Frontend. I'm currently learning React, Next.js, and Tailwind.
+          Hi, I&apos;m Student and have an interest in Web Development, especially
+          Frontend. I&apos;m currently learning React, Next.js, and Tailwind.
         </p>
         <div className="flex space-x-4 lg:mt-6 mt-4 justify-center lg:justify-start">
           <a
