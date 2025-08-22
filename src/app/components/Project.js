@@ -13,7 +13,7 @@ const projects = [
 
 export default function Project() {
   return (
-    <section className="py-20 px-6 max-w-7xl mx-auto">
+    <section className="py-20 md:px-6 max-w-7xl mx-auto">
       <h1 className="text-2xl lg:text-4xl font-bold mb-8 bg-gradient-to-r from-[#3fffbf] to-[#10B981] bg-clip-text text-transparent inline-block">
         Project
       </h1>
@@ -21,7 +21,7 @@ export default function Project() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="hover:shadow-lg transition-all duration-300 rounded-lg"
+            className="group hover:bg-white/5 backdrop-blur-sm border hover:border-white/10 border-none duration-300 rounded-lg md:p-4 p-0"
           >
             <div className="aspect-video w-full overflow-hidden rounded-lg">
               <Image
@@ -35,7 +35,7 @@ export default function Project() {
             </div>
             <div className="p-4 gap-2 flex flex-col">
               <a
-                className="flex items-center cursor-pointer group gap-1 hover:text-teal-300 transition-colors w-fit"
+                className="flex items-center cursor-pointer gap-1 group-hover:text-teal-300 transition-colors w-fit"
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
