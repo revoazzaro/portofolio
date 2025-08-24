@@ -3,21 +3,29 @@ import Image from "next/image";
 const projects = [
   {
     title: "Antasena19",
-    image: "/images/antasena19.png",
+    image: "/images/antasena19.webp",
     description:
       "This is a yearbook website for the graduating class of SMKN 5 Tangerang Regency, developed with WordPress and Elementor through close team collaboration. The site was created to celebrate the class’s identity and diversity across various study programs, presented through a clean, informative, and easily navigable design.",
     tech: ["Wordpress", "Elementor", "Git"],
     link: "https://antasena19.com",
   },
+  {
+    title: "Rev-Ai",
+    image: "/images/revai.webp",
+    description:
+      "Rev-Ai is a conversational AI web app built with Vite and Tailwind CSS, integrating DeepInfra’s API to provide access to multiple advanced language models through a clean and responsive interface. The platform emphasizes accessibility and flexibility, allowing users to explore different models seamlessly while enjoying a modern, intuitive design.",
+    tech: ["Vite", "Tailwind", "DeepInfra"],
+    link: "",
+  },
 ];
 
 export default function Project() {
   return (
-    <section className="py-20 md:px-6 max-w-7xl mx-auto">
+    <section className="py-10 md:px-6 max-w-7xl mx-auto">
       <h1 className="text-2xl lg:text-4xl font-bold mb-8 bg-gradient-to-r from-[#3fffbf] to-[#10B981] bg-clip-text text-transparent inline-block">
         Project
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <div
             key={index}

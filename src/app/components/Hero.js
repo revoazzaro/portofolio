@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="min-h-screen flex flex-col lg:flex-row items-center justify-center gap-8 mx-auto max-w-7xl">
       <div className="w-56 h-56 lg:w-72 lg:h-72 rounded-full">
         <Image
-          src="/images/revo.jpg"
+          src="/images/revo.webp"
           alt="Revo"
           width={300}
           height={300}
