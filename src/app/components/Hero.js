@@ -18,11 +18,14 @@ export default function Hero() {
         <h1 className="lg:text-5xl text-3xl font-bold text-[#10B981]">
           Revo Sasta Azzaro
         </h1>
-        <p className="lg:text-lg text-md lg:mt-3 mt-2 break-words whitespace-normal max-w-[650px]">
+        <p className="lg:text-lg text-md text-white/90">
+          Frontend Developer.
+        </p>
+        <p className="lg:text-lg text-md break-words whitespace-normal max-w-[650px] text-white/70">
           Hi, I&apos;m Student and have an interest in Web Development, especially
           Frontend. I&apos;m currently learning React, Next.js, and Tailwind.
         </p>
-        <div className="flex space-x-4 lg:mt-6 mt-4 justify-center lg:justify-start">
+        <div className="flex space-x-4 lg:mt-5 mt-4 justify-center lg:justify-start">
           <a
             className="border-2 border-[#10B981] hover:bg-[#10B981] transition-all duration-300 px-5 py-2 rounded-full text-md"
             href="mailto:revosastaazzaro16@gmail.com"

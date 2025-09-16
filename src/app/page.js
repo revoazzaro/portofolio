@@ -1,5 +1,6 @@
+import Achievements from "./components/Achievements";
 import Hero from "./components/Hero";
-import Project from "./components/Project";
+import Project from "./components/Projects";
 
 export default function Home() {
   return (
