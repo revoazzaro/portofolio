@@ -10,19 +10,27 @@ const projects = [
     link: "https://antasena19.com",
   },
   {
-    title: "RevAI",
+    title: "RevAI (Deactivated)",
     image: "/images/revai.webp",
     description:
       "RevAI is a conversational AI web app built with Vite and Tailwind CSS, integrating DeepInfra’s API to provide access to multiple advanced language models through a clean and responsive interface. The platform emphasizes accessibility and flexibility, allowing users to explore different models seamlessly while enjoying a modern, intuitive design.",
     tech: ["Vite", "Tailwind", "DeepInfra"],
-    link: "https://revai.revoazzaro.my.id",
+    link: "",
+  },
+  {
+    title: "FJKT48",
+    image: "/images/JKT48_FIGHT_LOGO.jpeg",
+    description:
+      "This is a duplicate of the official JKT48 website, built using Vue and Tailwind CSS. The project was developed to demonstrate the capabilities of these technologies in replicating a complex, content-rich website while maintaining a responsive and visually appealing design. The website allows users to watch members live on Showroom and view comments from fans.",
+    tech: ["Vue", "Tailwind",],
+    link: "https://fjkt48recreate.pages.dev",
   },
 ];
 
 export default function Project() {
   return (
     <section className="py-10 md:px-6 max-w-7xl mx-auto">
-      <h1 className="text-3xl lg:text-4xl font-bold mb-8 bg-gradient-to-r from-[#3fffbf] to-[#10B981] bg-clip-text text-transparent inline-block">
+      <h1 className="text-3xl lg:text-4xl font-bold md:mb-4 bg-gradient-to-r from-[#3fffbf] to-[#10B981] bg-clip-text text-transparent inline-block">
         Projects
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
