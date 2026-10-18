@@ -35,7 +35,7 @@ export default function Hero() {
         </div>
         <div className="flex space-x-4 mt-6 lg:justify-start justify-center">
           <a
-            href="https://instagram.com/rvoazro"
+            href="https://instagram.com/revoazz"
             target="_blank"
             rel="noopener noreferrer"
           >
